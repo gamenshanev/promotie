@@ -33,8 +33,6 @@ fs.readdir("./commands/", (err, files) =>{
 
 bot.on("ready", async () => {
 
-    console.log(`${bot.user.username} is nu online en klaar voor gebruik.`);
-
     bot.user.setActivity(`Promotie`, { type: "WATCHING" });
 	
 	    bot.on("guildMemberAdd", member => {
