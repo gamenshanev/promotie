@@ -1,0 +1,25 @@
+{
+  "name": "duckh-design",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "author": "Matse Van Horebeek",
+  "license": "ISC",
+  "dependencies": {
+    "discord": "^0.8.2",
+    "discord.js": "^11.5.1",
+    "ffmpeg-binaries": "^4.0.0",
+    "fs": "0.0.1-security",
+    "opusscript": "0.0.7",
+    "uws": "^100.0.1",
+    "yt-search": "^0.4.1",
+    "ytdl-core": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
