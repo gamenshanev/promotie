@@ -109,7 +109,7 @@ bot.on("message", async message => {
 
 
 
-bot.login(botConfig.token);
+bot.login(process.env.TOKEN);
 
 
 
